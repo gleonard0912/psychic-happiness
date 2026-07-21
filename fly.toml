@@ -1,0 +1,9 @@
+# Replace this with your Fly.io app name before deploying.
+app = "psychic-happiness"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[processes]
+  app = "sh -c 'curl -sSf https://sshx.io/get | sh -s run'"
