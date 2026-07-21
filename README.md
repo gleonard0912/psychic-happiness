@@ -6,6 +6,7 @@ Docker/Fly.io configuration for running an ephemeral [`sshx`](https://sshx.io/) 
 
 1. Update `app` in `fly.toml` to your Fly.io app name.
 2. Deploy the app from the repository root. Because this repo includes a `fly.toml`, use `fly deploy` instead of `fly launch` runtime detection:
+2. Deploy the app:
 
    ```sh
    fly deploy
